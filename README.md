@@ -14,6 +14,16 @@ An end-to-end machine learning application built using:
 - Streamlit frontend
 - Client-server architecture
 
+## Architecture
+
+Streamlit Frontend
+↓
+FastAPI Backend
+↓
+Random Forest Model
+↓
+Prediction
+
 ## Run Backend
 
 uvicorn api.main:app --reload
